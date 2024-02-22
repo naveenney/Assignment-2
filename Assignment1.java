@@ -28,7 +28,6 @@ public class Assignment1 {
 			double x2=(-b-Math.sqrt(val))/2*a;
 			System.out.println(x1+" "+x2);
 		}
-		
 		else if(val==0)
 		{
 			double x=-b/2*a;
@@ -67,19 +66,5 @@ public class Assignment1 {
 		int min=sec/60;
 		System.out.format("%d:%d:%d",hour,min,second);
 	}	
-		
-	public static void main(String[] args)
-	{
-		//celciusToFarenheit();
-		//findQuatraticEquation();
-		//calculateBmt();
-		convertTime();
-	}
 	
-	public static void convert(int sec)
-	{
-		Date d=new Date(sec);
-		
-		DateFormat d1=new SimpleDateFormat("HH:mm:ss:SSS");
-	}
 }
