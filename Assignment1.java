@@ -12,7 +12,7 @@ public class Assignment1 {
 		    int celcius=scan.nextInt();
 			return ((double)celcius*9/5)+32;
 	}
-	
+	// Write a program to solve a quadratic equation (ax^2+bx+c). Take a,b and c from user and use quadratic formula.
 	public static void findQuatraticEquation()
 	{
      	System.out.print("enter the inputs:");
