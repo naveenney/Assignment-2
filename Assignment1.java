@@ -36,7 +36,7 @@ public class Assignment1 {
 		else
 		    System.out.println("not an number");
 	}	
-		
+	//Get two numbers from user and perform bitwise AND< OR, XOR, left and right shift operations on them.	
 	public static void bitwiseOperations()
 	{
 		System.out.print("enter the values:");
@@ -45,7 +45,7 @@ public class Assignment1 {
 		
 		System.out.println("Bitwise AND"+(a&b)+"\nBitwise OR"+(a|b)+"\nBitwise XOR"+(a^b)+"\nleft Shift:"+(a<<b)+"\nright shift"+(a>>b));
 	}
-	
+	//Write a program to calculate a person's Body Mass Index on user input for weight and height. Get BMI formula from the internet.
 	public static void calculateBmt()
 	{
 		System.out.println("enter the weight:");
@@ -55,7 +55,7 @@ public class Assignment1 {
 		double res=weight/(height*height);
 		System.out.println(res);
 	}
-	
+	//Write a program to convert time entered in seconds to HH:mm:ss format
 	public static void convertTime()
 	{
 		System.out.print("enter the seconds:");
