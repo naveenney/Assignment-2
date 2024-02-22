@@ -60,7 +60,7 @@ public class Assignment1 {
 	{
 		System.out.print("enter the seconds:");
 		int sec=scan.nextInt();
-		int hour=sec/3600;
+		int hour=sec%(24*3600)/3600;
 		int second=sec/60;
 		sec=sec%3600;
 		int min=sec/60;
